@@ -1,8 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+import os, sys, gi
 from gi.repository import Gtk, WebKit
-import os, sys
+
+gi.require_version('Gtk', '3.0')
+gi.require_version('WebKit', '3.0')
+
 
 class Browser:
   def __init__(self):
