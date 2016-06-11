@@ -1,10 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import os, sys, gi
-from gi.repository import Gtk, WebKit
 
 gi.require_version('Gtk', '3.0')
 gi.require_version('WebKit', '3.0')
+
+from gi.repository import Gtk, WebKit
 
 
 class Browser:
